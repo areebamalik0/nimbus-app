@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nimbus | Money that moves with you</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="gridbg" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="brand" href="#top"><span class="dot"></span>Nimbus</a>
+  <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  <nav class="links"><a href="#features">Features</a><a href="#steps">How it works</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><a class="pill" href="#cta">Get early access</a></nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <span class="badge glass">New &middot; Spending insights that actually make sense</span>
+      <h1>Learn to <span class="swap" id="swap">save</span><br>without thinking about it.</h1>
+      <p>Nimbus watches your money quietly in the background, rounds up your spare change, and tells you when something looks off.</p>
+      <form class="mail" id="mail" novalidate>
+        <input type="email" placeholder="you@example.com" aria-label="Email address" required>
+        <button class="btn" type="submit">Join the waitlist</button>
+      </form>
+      <p class="note" id="mnote" role="status"></p>
+      <div class="proof"><span class="faces"><i></i><i></i><i></i><i></i></span><span><b>12,400+</b> people on the waitlist</span></div>
+    </div>
+
+    <div class="stage" id="stage">
+      <div class="phone" id="phone">
+        <div class="notch"></div>
+        <div class="screen">
+          <small>Total balance</small>
+          <strong>$12,480.50</strong>
+          <span class="up">+4.2% this month</span>
+          <svg viewBox="0 0 300 110" class="chart" aria-hidden="true">
+            <defs><linearGradient id="g" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#7C5CFF" stop-opacity=".55"/><stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/></linearGradient></defs>
+            <path class="area" d="M0,90 C30,80 50,95 80,70 S130,60 160,55 S220,30 250,34 S285,15 300,12 V110 H0Z" fill="url(#g)"/>
+            <path class="line" d="M0,90 C30,80 50,95 80,70 S130,60 160,55 S220,30 250,34 S285,15 300,12" fill="none" stroke="#3DE7FF" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+          <ul class="rows">
+            <li><i style="background:#FF4FD8"></i>Coffee Lab<b>-$4.80</b></li>
+            <li><i style="background:#3DE7FF"></i>Salary<b class="plus">+$2,400</b></li>
+            <li><i style="background:#7C5CFF"></i>Round-ups<b class="plus">+$1.20</b></li>
+          </ul>
+        </div>
+      </div>
+      <div class="chip c1 glass"><span class="ring" style="--p:82"><b>82%</b></span><span>Holiday fund</span></div>
+      <div class="chip c2 glass"><span class="ico">&#10003;</span><span>Rent paid<small>Just now</small></span></div>
+      <div class="chip c3 glass"><span class="ico pink">&#9889;</span><span>Round-up saved<small>+$0.60</small></span></div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true"><div class="track">
+    <span>Round-ups</span><span>Smart budgets</span><span>Instant alerts</span><span>Shared pots</span><span>Virtual cards</span><span>Weekly insights</span>
+    <span>Round-ups</span><span>Smart budgets</span><span>Instant alerts</span><span>Shared pots</span><span>Virtual cards</span><span>Weekly insights</span>
+  </div></div>
+
+  <section class="section" id="features">
+    <h2 class="reveal">Everything in one calm place</h2>
+    <p class="sub reveal">Six small tools that make a big difference to your month.</p>
+    <div class="bento">
+      <article class="glass f1 reveal"><h3>Goals that fill themselves</h3><p>Set a target and Nimbus tucks away spare change until you get there.</p><div class="bigring" style="--p:68"><b>68%</b></div></article>
+      <article class="glass f2 reveal"><h3>See where it went</h3><p>Spending by category, updated live.</p><div class="bars"><i style="--h:40%"></i><i style="--h:70%"></i><i style="--h:55%"></i><i style="--h:90%"></i><i style="--h:60%"></i><i style="--h:80%"></i></div></article>
+      <article class="glass f3 reveal"><h3>Virtual cards</h3><p>Make a card for each subscription and freeze it any time.</p><div class="vcard"><span>Nimbus</span><em></em><b>&bull;&bull;&bull;&bull; 4821</b></div></article>
+      <article class="glass f4 reveal"><h3>Alerts that matter</h3><p>Only the ones worth your attention.</p><ul class="notes"><li>Subscription went up $2</li><li>Paycheck arrived</li><li>Bill due tomorrow</li></ul></article>
+      <article class="glass f5 reveal"><h3>You stay in control</h3><p>Switch features on and off.</p><div class="toggles"><label><input type="checkbox" checked><span></span>Round-ups</label><label><input type="checkbox" checked><span></span>Weekly report</label><label><input type="checkbox"><span></span>Auto-invest</label></div></article>
+      <article class="glass f6 reveal"><h3>Travel-ready</h3><p>Spend abroad with no surprise fees.</p><div class="orbit"><i></i><i></i><i></i><b></b></div></article>
+    </div>
+  </section>
+
+  <section class="section" id="steps">
+    <h2 class="reveal">Up and running in three steps</h2>
+    <div class="steps">
+      <div class="glass step reveal"><b>1</b><h3>Connect</h3><p>Link your accounts securely in about a minute.</p></div>
+      <div class="glass step reveal"><b>2</b><h3>Set a goal</h3><p>Pick what you are saving for and how soon.</p></div>
+      <div class="glass step reveal"><b>3</b><h3>Relax</h3><p>Nimbus does the quiet work and shows your progress.</p></div>
+    </div>
+  </section>
+
+  <section class="stats reveal">
+    <div><b data-count="12400">0</b><span>on the waitlist</span></div>
+    <div><b data-count="38">0</b><span>countries</span></div>
+    <div><b data-count="4">0</b><span>average rating (concept)</span></div>
+  </section>
+
+  <section class="section" id="pricing">
+    <h2 class="reveal">Simple pricing</h2>
+    <div class="toggle reveal" id="period"><button class="on" data-p="m">Monthly</button><button data-p="y">Yearly <small>save 20%</small></button></div>
+    <div class="plans">
+      <div class="glass plan reveal"><h3>Free</h3><div class="price">$<span class="amt" data-m="0" data-y="0">0</span><small>/mo</small></div><ul><li>Spending overview</li><li>1 savings goal</li><li>Basic alerts</li></ul><a class="btn ghost" href="#cta">Start free</a></div>
+      <div class="glass plan hot reveal"><span class="tag">Most popular</span><h3>Plus</h3><div class="price">$<span class="amt" data-m="5" data-y="4">5</span><small>/mo</small></div><ul><li>Everything in Free</li><li>Unlimited goals</li><li>Virtual cards</li><li>Weekly insights</li></ul><a class="btn" href="#cta">Get Plus</a></div>
+      <div class="glass plan reveal"><h3>Family</h3><div class="price">$<span class="amt" data-m="9" data-y="7">9</span><small>/mo</small></div><ul><li>Everything in Plus</li><li>Up to 5 people</li><li>Shared pots</li></ul><a class="btn ghost" href="#cta">Get Family</a></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="reveal">What early testers say</h2>
+    <div class="quotes">
+      <figure class="glass reveal"><blockquote>&ldquo;I finally know where my money goes, and I did nothing.&rdquo;</blockquote><figcaption>Sample tester A</figcaption></figure>
+      <figure class="glass reveal"><blockquote>&ldquo;The round-ups paid for my flights without me noticing.&rdquo;</blockquote><figcaption>Sample tester B</figcaption></figure>
+      <figure class="glass reveal"><blockquote>&ldquo;Freezing a card in one tap is the best thing ever.&rdquo;</blockquote><figcaption>Sample tester C</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="section faq" id="faq">
+    <h2 class="reveal">Questions</h2>
+    <div class="acc reveal">
+      <details open><summary>Is Nimbus a real bank?</summary><p>No. Nimbus is a concept project, so nothing here is a real financial product.</p></details>
+      <details><summary>Can I cancel any time?</summary><p>In a real product you would be able to. Every plan would be month to month.</p></details>
+      <details><summary>How would round-ups work?</summary><p>Each purchase is rounded up to the next dollar and the spare change moves into your goal.</p></details>
+    </div>
+  </section>
+
+  <section class="cta glass reveal" id="cta">
+    <h2>Be first in line</h2>
+    <p>Join the waitlist and we will tell you when the doors open.</p>
+    <a class="btn" href="#top">Back to the top</a>
+  </section>
+</main>
+
+<footer class="foot"><span>Nimbus</span><span>A concept project built with HTML, CSS and JavaScript</span></footer>
+
+<aside class="credit glass" aria-label="Site credit">
+  <span class="avatar"><b>AM</b></span>
+  <span class="who"><strong>Designed &amp; built by Areeba Malik</strong><small>@areebamalik0</small></span>
+</aside>
+<script src="script.js"></script>
+</body>
+</html>
